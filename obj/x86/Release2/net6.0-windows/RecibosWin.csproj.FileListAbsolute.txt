@@ -1,0 +1,116 @@
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\RecibosWin.exe
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\RecibosWin.deps.json
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\RecibosWin.runtimeconfig.json
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\RecibosWin.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\RecibosWin.pdb
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\ClosedXML.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\DocumentFormat.OpenXml.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\ExcelNumberFormat.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\gsdll32.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\gsdll64.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\GhostscriptSharp.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\Google.Protobuf.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\Irony.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\itext.barcodes.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\itext.forms.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\itext.io.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\itext.kernel.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\itext.layout.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\itext.pdfa.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\itext.sign.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\itext.styledxmlparser.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\itext.svg.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\itext.commons.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\K4os.Compression.LZ4.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\K4os.Hash.xxHash.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\Magick.NET.Core.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\MySql.Data.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\ZstdNet.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\Newtonsoft.Json.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\BouncyCastle.Crypto.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\SixLabors.Fonts.dll
+D:\saludame\RecibosWin\bin\x86\Release2\net6.0-windows\XLParser.dll
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.csproj.AssemblyReference.cache
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.csproj.ResolveComReference.cache
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.Form1.resources
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.frmHistoriall.resources
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.frmInsertar.resources
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.csproj.GenerateResource.cache
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.GeneratedMSBuildEditorConfig.editorconfig
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.AssemblyInfoInputs.cache
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.AssemblyInfo.cs
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.csproj.CoreCompileInputs.cache
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.csproj.CopyComplete
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.dll
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\refint\RecibosWin.dll
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.pdb
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\RecibosWin.genruntimeconfig.cache
+D:\saludame\RecibosWin\obj\x86\Release2\net6.0-windows\ref\RecibosWin.dll
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.csproj.AssemblyReference.cache
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.csproj.ResolveComReference.cache
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.Form1.resources
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.frmHistoriall.resources
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.frmInsertar.resources
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.csproj.GenerateResource.cache
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.GeneratedMSBuildEditorConfig.editorconfig
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.AssemblyInfoInputs.cache
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.AssemblyInfo.cs
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.csproj.CoreCompileInputs.cache
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.dll
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\refint\RecibosWin.dll
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.pdb
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\RecibosWin.exe
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\RecibosWin.deps.json
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\RecibosWin.runtimeconfig.json
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\RecibosWin.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\RecibosWin.pdb
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\ClosedXML.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\DocumentFormat.OpenXml.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\ExcelNumberFormat.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\gsdll32.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\gsdll64.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\GhostscriptSharp.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\Google.Protobuf.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\Irony.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\itext.barcodes.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\itext.forms.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\itext.io.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\itext.kernel.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\itext.layout.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\itext.pdfa.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\itext.sign.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\itext.styledxmlparser.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\itext.svg.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\itext.commons.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\K4os.Compression.LZ4.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\K4os.Hash.xxHash.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\Magick.NET.Core.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\Microsoft.DotNet.PlatformAbstractions.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\MySql.Data.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\ZstdNet.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\Newtonsoft.Json.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\BouncyCastle.Crypto.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\SixLabors.Fonts.dll
+D:\saludame\RecibosWin - Copy\bin\x86\Release2\net6.0-windows\XLParser.dll
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.csproj.CopyComplete
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\RecibosWin.genruntimeconfig.cache
+D:\saludame\RecibosWin - Copy\obj\x86\Release2\net6.0-windows\ref\RecibosWin.dll
