@@ -18,6 +18,7 @@ namespace RecibosWin
 
         }
 
+        //verificar si hay conexion a internet e inicializar el contador
         private void Form1_Load(object sender, EventArgs e)
         {
             if (IsNetworkAvailable() == true)
@@ -40,6 +41,8 @@ namespace RecibosWin
                 MessageBox.Show("Error, sin conexion a Internet!\nRevise el estado de la conexion a internet y vuelva a intentar", "Sin conexion a Internet", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        //actualizar contador para ver cual recibo toca generar
         private void ActualizarNroRecibo()
         {
             if (IsNetworkAvailable() == true)
@@ -54,6 +57,7 @@ namespace RecibosWin
             }
         }
 
+        //para generar el pdf e insertar a la db
         private void btnGenerarPDF_Click(object sender, EventArgs e)
         {
             string name = txtNombreCliente.Text.ToUpper();
@@ -124,6 +128,7 @@ namespace RecibosWin
 
         }
 
+        //cargar frmHistorial al hacer click y al haber conexion a internet
         private void btnVerHistorial_Click(object sender, EventArgs e)
         {
             if (IsNetworkAvailable() == true)
@@ -136,6 +141,7 @@ namespace RecibosWin
            
         }
 
+        //detectar si hubo cambio para modificar al contador
         private void dgvTemp_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
             string str = dgvTemp.Rows[0].Cells[0].Value.ToString()!;
@@ -143,21 +149,25 @@ namespace RecibosWin
             lblNumeroRecibo.Text = "Nro. " + n.ToString();
         }
 
+        //evento al hacer click a un boton, actualize el numero de recibo a generar
         private void btnActualizar_Click(object sender, EventArgs e)
         {
             ActualizarNroRecibo();
         }
 
+        //salir - menutoolstrip
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        //acerca de - menutoolstrip
         private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hecho por Ariel Tellez Torrico.", "Acerca del programa");
         }
 
+        //case con los montos de los colegios
         private void cbxColegio_TextChanged(object sender, EventArgs e)
         {
             string colegi0 = cbxColegio.Text;
@@ -212,12 +222,13 @@ namespace RecibosWin
             }
         }
 
+        //ver si hay conexion a internet, este es el metodo a llamar
         public static bool IsNetworkAvailable()
         {
             return IsNetworkAvailable(0);
         }
 
-
+        //verificar si hay conexion a internet
         public static bool IsNetworkAvailable(long minimumSpeed)
         {
             if (!NetworkInterface.GetIsNetworkAvailable())

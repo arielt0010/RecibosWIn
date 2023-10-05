@@ -16,6 +16,7 @@ namespace RecibosWin
 
         private MySqlConnection? conectarBD()
         {
+            //conexion a db mysql
             string servidor = "localhost";
             string bd = "recibos";
             string usuario = "root";
@@ -37,11 +38,12 @@ namespace RecibosWin
             }
         }
 
+        //insertar datos de db
         public void insertarDB(string nombreAlumni, string cursoAlumni, string colegio, string gestion, string forma_pago, string monto) {
             conectarBD();
             string theDate = DateTime.Now.ToString("yyyy-MM-dd H:mm:ss");
             string usuario = System.Environment.MachineName;
-            string query = "insert into recibosgenerados2(nombre, curso, colegio, gestion, fecha, usuario, forma_pago, monto) values" +
+            string query = "insert into recibos(nombre, curso, colegio, gestion, fecha, usuario, forma_pago, monto) values" +
                 "(@nombre, @curso, @colegio, @gestion, @fecha, @usuario, @forma_pago, @monto);";
             MySqlCommand cmd = new MySqlCommand(query, conexionBD);
             cmd.Parameters.AddWithValue("@nombre",nombreAlumni);
@@ -56,10 +58,11 @@ namespace RecibosWin
             while (mySqlDataReader.Read()) { }
             closeConnection();
         }
-
+        
+        //eliminar dato de db
         public void deleteReciboDB(string eliminar) {
             conectarBD();
-            string query = "delete from recibosgenerados2 where Id = @Id;";
+            string query = "delete from recibos where Id = @Id;";
             MySqlCommand cmd = new MySqlCommand(query, conexionBD);
             cmd.Parameters.AddWithValue("@Id", eliminar);
             MySqlDataReader mySqlDataReader = cmd.ExecuteReader();
@@ -67,11 +70,12 @@ namespace RecibosWin
             closeConnection();
         }
 
+        //selecciona toda la db, se usa en los datagridview.
         public void selectAllDB(DataGridView dgv){
             conectarBD();
             try
             {
-                string query = "select * from recibosgenerados2;";
+                string query = "select * from recibos;";
                 MySqlCommand mySqlCommand = new MySqlCommand(query, conexionBD);
                 MySqlDataAdapter adapter = new MySqlDataAdapter();
                 adapter.SelectCommand = mySqlCommand;
@@ -85,6 +89,7 @@ namespace RecibosWin
             }
         }
 
+        //cerrar conexion db
         private void closeConnection() {
             try
             {
@@ -96,13 +101,14 @@ namespace RecibosWin
             }
         }
 
+        //Buscar por filtro
         public void selectCriterio(DataGridView dgv, string criterio, string filtro)
         {
             conectarBD();
 
             try
             {
-                string query = "select * from recibosgenerados2 where " + filtro + " like '%" + criterio + "%';";
+                string query = "select * from recibos where " + filtro + " like '%" + criterio + "%';";
                 MySqlCommand mySqlCommand = new MySqlCommand(query, conexionBD);
                 MySqlDataAdapter adapter = new MySqlDataAdapter();
                 adapter.SelectCommand = mySqlCommand;
@@ -116,11 +122,13 @@ namespace RecibosWin
             }
         }
 
+
+        //Select para el contador en Form1.cs
         public void selectUltimoNumeroRecibo(DataGridView dgv) {
             try
             {
                 conectarBD();
-                string query = "select Id from recibosgenerados2 order by Id DESC LIMIT 1 for update";
+                string query = "select Id from recibos order by Id DESC LIMIT 1 for update";
                 MySqlCommand mySqlCommand = new MySqlCommand(query, conexionBD);
                 MySqlDataAdapter adapter = new MySqlDataAdapter();
                 adapter.SelectCommand = mySqlCommand;
@@ -132,12 +140,14 @@ namespace RecibosWin
             catch (Exception e22) { MessageBox.Show(e22.ToString()); }
         }
 
+
+        //Actualizar datos de alumno
         public void updateDB(string Id,string nombreAlumni, string cursoAlumni, string colegio, string gestion, string forma_pago, string monto)
         {
             conectarBD();
             try
             {
-                string query = "update recibosgenerados2 set nombre = @nombre, curso = @curso, colegio = @colegio, gestion = @gestion, forma_pago = @forma_pago, monto=@monto where Id=@id;";
+                string query = "update recibos set nombre = @nombre, curso = @curso, colegio = @colegio, gestion = @gestion, forma_pago = @forma_pago, monto=@monto where Id=@id;";
                 MySqlCommand cmd = new(query, conexionBD);
                 cmd.Parameters.AddWithValue("@id", Id);
                 cmd.Parameters.AddWithValue("@nombre", nombreAlumni);

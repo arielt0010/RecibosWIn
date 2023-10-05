@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "esKeLSAdpVg7ZzjWExNNVciq/H5dl/NUpcZdV1nT2uvLH1q8hm9k0ArT5MOc0o+cEcZl4/Xh+ijra2bc/Mn8Ww==",
+  "dgSpecHash": "6b21mfwhkZ4qVL8XVx9AUoT/TlO3jClbafB4ibkDCKnJ5/6rNRXACFbZHdsYNFlDa3QKczPL5jmpakB7AVyT2A==",
   "success": true,
-  "projectFilePath": "D:\\saludame\\RecibosWin - Copy\\RecibosWin.csproj",
+  "projectFilePath": "C:\\Users\\ariel\\Documents\\GitHub\\RecibosWIn\\RecibosWin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ariel\\.nuget\\packages\\closedxml\\0.100.2\\closedxml.0.100.2.nupkg.sha512",
     "C:\\Users\\ariel\\.nuget\\packages\\documentformat.openxml\\2.16.0\\documentformat.openxml.2.16.0.nupkg.sha512",

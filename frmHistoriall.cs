@@ -16,6 +16,7 @@ namespace RecibosWin
 
         }
 
+        //verificar si hay conexion a internet y realizar un select a la db y cargarla en el datagridview
         private void frmHistoriall_Load(object sender, EventArgs e)
         {
             if (IsNetworkAvailable())
@@ -36,6 +37,7 @@ namespace RecibosWin
             }
         }
 
+        //boton para eliminar dato de la db
         private void btnEliminar_Click(object sender, EventArgs e)
         {
 
@@ -58,14 +60,15 @@ namespace RecibosWin
 
         }
 
+        //cargar el form frmInsertar al hacer click
         private void btnInsertar_Click(object sender, EventArgs e)
         {
             frmInsertar = new frmInsertar();
             frmInsertar.ShowDialog();
             cbx.selectAllDB(dgvN);
-            
         }
 
+        //hacer un select al hacer click, para refrescar los datos de la db
         private void btnActualizar_Click(object sender, EventArgs e)
         {
             if (IsNetworkAvailable() == true)
@@ -81,6 +84,7 @@ namespace RecibosWin
             }
         }
 
+        //para buscar datos dependiendo del filtro seleccionado
         private void txtBuscar_TextChanged(object sender, EventArgs e)
         {
             if (txtBuscar.Text == "")
@@ -159,6 +163,7 @@ namespace RecibosWin
             }
         }
 
+        //para mostrar el texto en el textbox, estetico
         private void txtBuscar_Enter(object sender, EventArgs e)
         {
             if (txtBuscar.Text == "Buscar por... (Selecciona el filtro en el desplegable)")
@@ -178,6 +183,8 @@ namespace RecibosWin
             }
         }
 
+        //al momento de hacer click en una fila del datagridview, se guardan los datos seleccionados para mostrarlos
+        //en otro textbox
         private void dgvDatosS_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             textBox1.Text = dgvN.Rows[e.RowIndex].Cells[0].Value.ToString();
@@ -198,6 +205,7 @@ namespace RecibosWin
             }
         }
 
+        //para cerrar el formulario correctamente
         private void frmHistoriall_FormClosing(object sender, FormClosingEventArgs e)
         {
             this.Hide();
@@ -205,8 +213,7 @@ namespace RecibosWin
             e.Cancel = true;
         }
 
-
-
+        //al momento de hacer click genere un reporte usando DGVPrinter.cs
         private void imprimirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DGVPrinter printer = new DGVPrinter();
@@ -225,6 +232,7 @@ namespace RecibosWin
             printer.PrintPreviewDataGridView(dgvN);
         }
 
+        //exportar todo lo que tenga seleccionado el datagridview en un archivo de Excel
         private void exportarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
@@ -267,22 +275,25 @@ namespace RecibosWin
             }
         }
 
+        //salir del formulario
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        //al momento de hacer click en Actualizar datos, mostrar el groupbox con los datos seleccionados.
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             gbxActualizar.Visible = true;
-
         }
 
+        //ocultar el groupbox.
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             gbxActualizar.Visible = false;
         }
 
+        //al momento de querer actualizar algun dato en la db, verificando siempre que haya conexiono a internet
         private void btnActualizar_Click_1(object sender, EventArgs e)
         {
             if (IsNetworkAvailable() == true)
@@ -310,6 +321,7 @@ namespace RecibosWin
             }
         }
 
+        //switch para saber montos de colegios y dependiendo del colegio seleccionado, seleccionar monto correspondiente
         private void cbxColegioH_TextChanged(object sender, EventArgs e)
         {
             string colegi0 = cbxColegioH.Text;
@@ -364,11 +376,11 @@ namespace RecibosWin
             }
         }
 
+        //para saber si hay conexion a internet o no
         public static bool IsNetworkAvailable()
         {
             return IsNetworkAvailable(0);
         }
-
 
         public static bool IsNetworkAvailable(long minimumSpeed)
         {
